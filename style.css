@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-image: url("img/neon-light.jpg");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -9,8 +9,11 @@ body {
   }
   
   .container {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh
   }
   
   .page-title {
@@ -36,12 +39,13 @@ body {
     display: block;
     margin: 0 auto;
     padding: 10px 15px;
+    border-radius: 10px;
   }
   
   .form-wrapper button {
     border: 0;
     color: #ffffff;
-    background: #da1e26;
+    background: rgb(30, 39, 218);
     font-weight: bold;
     padding: 15px 20px;
     font-size: 16px;
