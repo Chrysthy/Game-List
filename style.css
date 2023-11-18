@@ -1,48 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;500&display=swap');
+
 body {
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Gemunu Libre', sans-serif;
     text-align: center;
     background-image: url("img/neon-light.jpg");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-  }
-  
-  .container {
+    overflow: hidden;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh
-  }
-  
-  .page-title {
+    height: 50vh
+}
+
+.page-title {
     color: #ffffff;
     margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.page-subtitle {
     color: #ffffff;
     margin-top: 5px;
-  }
-      
-  #listaGames img {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#listaGames img {
     margin: 10px;
     max-height: 250px;
-  }
-  
-  .form-wrapper {
+}
+
+.form-wrapper {
     margin: 0 0 15px;
-  }
-  
-  .form-wrapper input {
+    
+}
+
+.form-wrapper input {
     display: block;
     margin: 0 auto;
     padding: 10px 15px;
     border-radius: 10px;
-  }
-  
-  .form-wrapper button {
+    font-family:'Gemunu Libre', sans-serif;
+
+   
+
+}
+
+.form-wrapper button {
     border: 0;
     color: #ffffff;
     background: rgb(30, 39, 218);
@@ -53,9 +65,9 @@ body {
     margin-top: 20px;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
-  .form-wrapper button:hover {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.form-wrapper button:hover {
     opacity: 0.8;
-  }
-  
+}
